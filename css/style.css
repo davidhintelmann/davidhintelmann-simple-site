@@ -1,0 +1,47 @@
+.navbarr {/*changes colours of bg, and creates rounded border*/
+  background-color: #191970;
+  border-left: medium none;
+  border-radius: 5px;
+  border-right: medium none;
+}
+
+.navbar-brand { /*changes colours of brand*/
+  color: #fa8072;
+}
+
+.nav-link { /*changes colours of links*/
+  color: #cd5c5c;
+}
+
+.btn.btn-search { /*changes colours of search*/
+  color: #D89D6D;
+  border-color: #D89D6D;
+}
+
+.btn.btn-search:hover { /*changes colours of search hover*/
+  color: #cd5c5c;
+  background-color: #82CAFF;
+  border-color: #cd5c5c;
+}
+/*dropdown for when windows is too small*/
+.custom-toggler.navbar-toggler {
+    border-color: #D89D6D;
+}
+/*dropdown for when windows is too small {bars}*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#D89D6D' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+body {
+  background-image: url('../media/nature-bg2.jpg');
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #759ECF;
+}
