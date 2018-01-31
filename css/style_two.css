@@ -7,7 +7,7 @@
 }
 
 .navbar-item {
-  visibility: hidden;
+  visibility: visible;
 }
 
 /*changes colours of brand*/
@@ -156,12 +156,11 @@
 }
 
 body {
-  background-image: url('../media/pngtree.png');
+  background-color: rgba(117,158,207,1);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #000000;
 }
 
 footer {

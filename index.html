@@ -5,46 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <title>Google Maps API Example</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
+    <title>Extreme Explorers</title>
   </head>
 
-  <body>
+  <!-- change the bg of navbar when scrolling -->
+  <body id="scroll" onscroll="changeBgNavColour()">
     <header>
       <!-- Navbar Brand -->
       <nav class="navbar navbar-inverse bg-inverse navbar-expand-md fixed-top">
-        <a class="navbar-brand" href="#">API</a>
-        <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand navbar-item" href="#">EE</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <!-- Links -->
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
             <li class="navbar-item">
-              <a class="nav-link" href="#">Link 1</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" href="#">Link 2</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <!-- Dropdown Menu -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbardrop">Dropdown</a>
+            <li class="navbar-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Expeditions</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Link 1</a>
-                <a class="dropdown-item" href="#">Link 2</a>
-                <a class="dropdown-item" href="#">Link 3</a>
+                <a class="dropdown-item" href="beginner/index.html">Beginners</a>
+                <a class="dropdown-item" href="intermediate/index.html">Intermediate</a>
+                <a class="dropdown-item" href="extreme/index.html">Extreme</a>
               </div>
             </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
           </ul>
-          <form class="form-inline my-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-search btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <button class="btn btn-menu btn-outline-success" type="submit" id="navbar-menu">MENU</button>
         </div>
       </nav>
-
     </header>
+
+
+
+
+    <div class="jumbotron">
+      <div class="container jumbo-pad">
+        <div class="jumbo-bg-text">
+          <h2 class="jumbo-head-text">Become an Adventurer</h2>
+          <br><br>
+          <p class="jumbo-text">Plan your next trip among some of the best explorers on Earth.</p>
+          <p class="jumbo-text">Our experienced guides will plan a safe trip for you.</p>
+          <br>
+          <p class="jumbo-text">These are not trips for the faint hearted,</p>
+          <p class="jumbo-text">These are expeditions for the <b>Extreme Explorer</b>!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-main">
+      <div class="main-header">
+      <div class="bg-dark main-info">
+          <p>Check Below for different Levels of Expeditions</p>
+      </div>
+      </div>
+      <div class="container main-rows">
+        <div class="row mt-md-4">
+          <div class="col-md-4">
+          <a href="beginner/index.html">
+            <img class="img-responsive" src="beginner/beginner/Jeremy-Bishop.jpeg" alt="Hiking through shallow flowing river deep within an autumn forest with a magnificent mountain in the background.">
+          </a>
+          </div>
+          <div class="col-md-8 col-second">
+            <a href="beginner/index.html">
+              <h4 class="rows-header">Hiking Adventures</h4>
+            </a>
+            <p class="rows-text">For beginners just getting into hiking and experiencing the real outdoors for the first time. We have very easy trails to more exhausting hikes for beginners of all ages.</p>
+            <p class="rows-text">Gear provided. Bring enthusiasm!</p>
+            <p class="rows-text">2-3 days</p>
+          </div>
+        </div>
+        <div class="row mt-md-4">
+          <div class="col-md-4">
+          <a href="intermediate/index.html">
+            <img class="img-responsive" src="intermediate/intermediate/Kevin-Chen.jpeg" alt="Hiking along a mountain cliff edges over looking a forest in mid summer.">
+          </a>
+          </div>
+          <div class="col-md-8 col-second">
+            <a href="intermediate/index.html">
+              <h4 class="rows-header">Hiking & Climbing</h4>
+            </a>
+            <p class="rows-text">Adventures for more experienced explorers with an interest to push themselves.</p>
+            <p class="rows-text">Only for the experienced adventurer. Gear provided.</p>
+            <p class="rows-text">1 week</p>
+          </div>
+        </div>
+        <div class="row mt-md-4">
+          <div class="col-md-4">
+          <a href="extreme/index.html">
+            <img class="img-responsive" src="extreme/extreme/Sven-Scheuermeier.jpeg" alt="Staring at a huge mountain peak, dwarfing all geographical features in the area, must be climbed...">
+          </a>
+          </div>
+          <div class="col-md-8 col-second">
+            <a href="extreme/index.html">
+              <h4 class="rows-header">Mountaineers</h4>
+            </a>
+            <p class="rows-text">Only for the extreme adventurer.</p>
+            <p class="rows-text">No Phobias. Need your own gear.</p>
+            <p class="rows-text">2-3 weeks</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+      <div class="body-bot-margin">
+      </div>
+    </div>
+    </div>
+
     <!-- Scripts for javascript, bootstrap -->
     <script src="js/jquery.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
   </body>
+
+  <footer>
+    <div class="container">
+      <div class="row mt-md-4">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+          <hr>
+          <p class="footer-text">Site Created with <a class="footer-hover" href="https://getbootstrap.com">Bootstrap</a>, images from <a class="footer-hover" href="https://Unsplash.com">Unsplash</a> and <a class="footer-hover" href="https://pngtree.com">pngtree</a></p>
+          <hr>
+        </div>
+        <div class="col-md-2">
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </html>
