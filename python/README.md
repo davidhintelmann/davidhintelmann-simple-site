@@ -1,4 +1,4 @@
-This folder has two small apps developed for interfacing with [Oandas](https://developer.oanda.com) REST API.
+This folder has two small apps developed for interfacing with [Oandas](http://developer.oanda.com) REST API.
 
 
 Oanda-first only has downloading historical data prices for 'EUR_USD' FOREX prices,
