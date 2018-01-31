@@ -1,4 +1,4 @@
-Repository and Website created by David Hintelmann, contact at davidhin@me.com
+Repository and website created by David Hintelmann, contact at davidhin@me.com
 
 
 Images taken from [Unsplash](https://unsplash.com) and one from [pngtree](https://pngtree.com) specifically [this one](https://pngtree.com/freepng/landscape-reflection_3273793.html).
@@ -17,4 +17,4 @@ A live tick stream has been developed based on [Quant Start](https://www.quantst
 
 
 This code will require folder called res in the directory parent to python folder.
-res folder will have ids.json file for ID and oanda_api_key.json file for API token issued by Oanda.
+The res folder will have ids.json file for ID and oanda_api_key.json file for API token issued by Oanda.
