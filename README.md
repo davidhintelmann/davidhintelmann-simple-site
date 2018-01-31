@@ -6,7 +6,7 @@ Images taken from [Unsplash](https://unsplash.com) and one from [pngtree](https:
 Introdution to HTML, CSS, JAVASCRIPT, JQuery, and Bootstrap.
 
 
-For educational purposes only
+For educational purposes only.
 
 
 Since this is a free GitHub account, python code is in folder labeled python.
