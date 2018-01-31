@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import NormCur as nc
 import OHLC as oc
 import GrabAll as ga
-import Spread as sp
 
 ieu, Ceu, iej, Cej, iea, Cea, iec, Cec, tickseu = ga.GrabAllCandles()
 

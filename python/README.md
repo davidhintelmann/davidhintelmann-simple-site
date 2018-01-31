@@ -1,10 +1,18 @@
 This folder has two small apps developed for interfacing with [Oandas](http://developer.oanda.com) REST API.
- Specifically using Oandas V-20 REST API.
-
-
+ Specifically using Oandas V-20 REST API.  
+ 
 Oanda-first only has downloading historical data prices for 'EUR_USD' FOREX prices, and scaling two different currencies.
 While Oanda-Event is an intro to an event driven software for streaming live prices from Oanda
 as well building on what was learned from Oanda-first to begin data collection for backtesting.
-Inspiration for the event driven software written in python comes from [Quant Start](https://www.quantstart.com/articles/Forex-Trading-Diary-1-Automated-Forex-Trading-with-the-OANDA-API).
+Inspiration for the event driven software written in python comes from [Quant Start](https://www.quantstart.com/articles/Forex-Trading-Diary-1-Automated-Forex-Trading-with-the-OANDA-API). 
 
-This code will require folder called res in the directory parent to python folder (ie. [this one](../../../)). The res folder will need to have have ids.json file for ID and oanda_api_key.json file for API token issued by Oanda (create folder and json files).
+Dependencies       	| Version          |
+--------------------|------------------|
+Python 				| 3.6.4   		  	|
+glob2			       | 0.5     	      |
+matplotlib 			| 2.1.0			  	|
+numpy 					| 1.13.3 				|
+pandas 				| 0.22.0   			|
+
+  
+This code will require folder called res in the directory parent to python folder (ie. [this one](../../../)). The res folder will need to have have a ids.json file for ID and an oanda_api_key.json file for API token issued by Oanda (create folder and json files).
