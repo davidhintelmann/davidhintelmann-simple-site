@@ -17,4 +17,4 @@ A live tick stream has been developed based on [Quant Start](https://www.quantst
 
 
 This code will require folder called res in the directory parent to python folder.
-The res folder will need to have ids.json file for ID and oanda_api_key.json file for API token issued by Oanda (folder and json files).
+The res folder will need to have ids.json file for ID and oanda_api_key.json file for API token issued by Oanda (create folder and json files).
