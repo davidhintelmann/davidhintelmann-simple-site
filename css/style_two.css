@@ -5,9 +5,9 @@
   border-right: medium none;
   transition: 0.4s;
 }
-
+/* ONLY DIFFERENCE BETWEEN THIS FILE AND style.css*/
 .navbar-item {
-  visibility: visible;
+  visibility: visible; /* this is the different line */
 }
 
 /*changes colours of brand*/

@@ -65,12 +65,12 @@
   height: 420px;
 }
 .jumbo-bg-text{
-  margin: 12%;
-  padding: 10px;
+  margin-top: 12%;
+  padding: 30px;
   background-color: rgba(250, 250, 250, 0.3);
   box-shadow: 1px 1px 2px black;
   animation-name: bounce;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
 }
 .jumbo-head-text {
   font-family:sans-serif;
@@ -86,7 +86,7 @@
   color: #D89D6D;
   text-align:center;
   line-height:50px;
-  background-color: #000000;
+  background-color: #343A40;
   width: 50%;
   margin-left: 25%;
   animation-name: bounce;
@@ -96,10 +96,6 @@
 
 .main-header {
   padding: 30px;
-}
-
-.post-jumbo {
-
 }
 
 .container-main {

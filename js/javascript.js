@@ -38,3 +38,65 @@ $(document).ready(function(){
     }
   })
 })
+
+/* change jumbotron effects when mouse hovers over */
+$(document).ready(function(){
+  $(".jumbo-bg-text").hover(function(){
+      $(this).css("backgroundColor","rgba(250, 250, 250, 0.7)");
+      $(this).css("padding","25px");
+      $(this).css("boxShadow","4px 4px 8px black");
+    }, function(){
+      $(this).css("backgroundColor","rgba(250, 250, 250, 0.3)");
+      $(this).css("padding","20px");
+      $(this).css("boxShadow","1px 1px 2px black");
+  });
+});
+
+/* change .main-info effects when mouse hovers over */
+$(document).ready(function(){
+  $(".main-info").hover(function(){
+      $(this).css("backgroundColor","rgba(0, 0, 0, 0.7)");
+      $(this).css("boxShadow","2px 2px 4px black");
+      $(this).css("color","orange");
+    }, function(){
+      $(this).css("backgroundColor","#343A40");
+      $(this).css("boxShadow","1px 1px 2px black");
+      $(this).css("color","#D89D6D");
+  });
+});
+
+/* change imgs on homepage to increase in size when mouse hovers over */
+$(document).ready(function(){
+  $(".img-responsive").hover(function(){
+      $(this).css("transform","scale(1.1)");
+      $(this).css("boxShadow","2px 2px 4px black");
+    }, function(){
+      $(this).css("transform","scale(1)");
+      $(this).css("backgroundColor","#343A40");
+      $(this).css("boxShadow","1px 1px 2px black");
+  });
+});
+
+$(document).ready(function(){
+  $(".col-second").hover(function(){
+      $(this).css("transform","scale(1.1)");
+      $(this).css("backgroundColor","#FFFFFF");
+      $(this).css("boxShadow","2px 2px 4px black");
+    }, function(){
+      $(this).css("transform","scale(1)");
+      $(this).css("backgroundColor","#FFFFFF");
+      $(this).css("boxShadow","1px 1px 2px black");
+  });
+});
+
+$(document).ready(function(){
+  $(".card-img-top").hover(function(){
+      $(this).css("transform","scale(1.1)");
+      $(this).css("backgroundColor","#FFFFFF");
+      $(this).css("boxShadow","2px 2px 4px black");
+    }, function(){
+      $(this).css("transform","scale(1)");
+      $(this).css("backgroundColor","#FFFFFF");
+      $(this).css("boxShadow","1px 1px 2px black");
+  });
+});
