@@ -9,7 +9,7 @@ Introdution to HTML, CSS, JAVASCRIPT, JQuery, and Bootstrap.
 For educational purposes only.
 
 
-Since this is a free GitHub account, python code is in folder labeled python.
+Since this is a free GitHub account and I can only have one repository, python code is in folder labeled python.
 Here are two attempts to begin understanding [Oandas](https://www.oanda.com) REST API.
 
 
