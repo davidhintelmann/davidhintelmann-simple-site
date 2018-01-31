@@ -6,3 +6,5 @@ Oanda-first only has downloading historical data prices for 'EUR_USD' FOREX pric
 While Oanda-Event is an intro to an event driven software for streaming live prices from Oanda
 as well building on what was learned from Oanda-first to begin data collection for backtesting.
 Inspiration for the event driven software written in python comes from [Quant Start](https://www.quantstart.com/articles/Forex-Trading-Diary-1-Automated-Forex-Trading-with-the-OANDA-API)
+
+This code will require folder called res in the directory parent to python folder (ie like [this one](../). res folder will have ids.json file for ID and oanda_api_key.json file for API token issued by Oanda.
