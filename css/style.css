@@ -156,6 +156,9 @@
 }
 
 body {
+  top:0;
+  z-index:-1;
+  width:100%;
   background-image: url('../media/pngtree.png');
   background-position: center center;
   background-repeat: no-repeat;
@@ -193,5 +196,14 @@ footer {
   100% {
     transform: scale(1);
     opacity: 0.8;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-color: black;
+    background-image: none;
   }
 }
