@@ -1,5 +1,5 @@
 
-##Oanda REST API example 
+**Oanda REST API example **<br>
 
 This folder has two small apps developed for interfacing with [Oandas](http://developer.oanda.com) REST API.
  Specifically using Oandas V-20 REST API.  
@@ -18,9 +18,9 @@ matplotlib 			| 2.1.0			  	|
 numpy 					| 1.13.3 				|
 pandas 				| 0.22.0   			| 
 
-##Oanda-first
+**Oanda-first**<br>
 This folder contains a means to look at past FOREX prices, and compare them.
-####Functions in OHLC.py  
+**Functions in OHLC.py**  
 GrabToken() will grab users API token from res folder.  
 Returns token as string.  
 
@@ -34,7 +34,7 @@ Returns instru, time, volume, bid OHLCs, ask OHLCs, ticks as numpy arrays.
 ```
 GrabCandles(token, instru, start, gran, based, count=1000)
 ```
-####Function in GrabAll.py  
+**Function in GrabAll.py**  
 GrabAllCandles() grabs different prices at a time from 'EUR' currency  
 Returns only instru and ask close as numpy arrays.
 
@@ -42,7 +42,7 @@ Returns only instru and ask close as numpy arrays.
 GrabAll()
 ```  
 
-####Function in NormCur.py  
+**Function in NormCur.py**  
 NormCur() requires Bid close (s for scale and n for normalize).  
 This is an ad hoc way to scale Currencies with vastly different prices to be "on top" on one another.  
 Returns normalized or scaled prices as numpy array.
@@ -54,11 +54,11 @@ NormCur(BCn, BCs)
 Now use matplotlib.pyplot to plot simple line graphs to see if you plot the same data as Oanda shows in their downloadable app.  
 This will show you are connecting with their API correctly.  
 
-##Oanda-Event  
+**Oanda-Event**<br>  
 This folder contains event driven software to stream live tick feed data.  
 There is plently learned from the previous folder (Oanda-first) which is planned to be implemented here found in Backtest folder.  
-####*Functions in Backtest folder*
-####Functions downloadOHLC.py  
+**Functions in Backtest folder**  
+**Functions downloadOHLC.py**  
 GrabHistoryPrice() requires 4 parameters to initialize with one optional parameter.  
 Returns one HTTP response.  
 
@@ -66,5 +66,5 @@ Returns one HTTP response.
 GrabHistoryPrice(domain, token, instru, gran, count=500)
 ```
 
-##Please note
+**Please note**
 This code will require folder called res in this directory (parent to python folder). The res folder will need to have a ids.json file for ID and an oanda_api_key.json file for API token issued by Oanda (create folder and json files). These can be obtained for free from Oanda.
