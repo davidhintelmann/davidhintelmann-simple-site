@@ -6,7 +6,7 @@ import pandas as pd
 from enviroB import API_DOMAIN, GrabToken, GrabID
 
 class GrabHistPrice(object):
-    def __init__(self, domain, token, instru, gran, count=49):
+    def __init__(self, domain, token, instru, gran, count=500):
         self.domain = domain
         self.token = token
         self.gran = gran
