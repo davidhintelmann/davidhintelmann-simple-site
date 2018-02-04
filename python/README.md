@@ -1,5 +1,5 @@
 
-**Oanda REST API example **<br>
+# Oanda REST API example
 
 This folder has two small apps developed for interfacing with [Oandas](http://developer.oanda.com) REST API.
  Specifically using Oandas V-20 REST API.  
