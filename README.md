@@ -1,4 +1,4 @@
-# Not a Real Website, just an Example
+# Not a real website, just an example
 
 Repository created by David Hintelmann, contact at <davidhin@me.com>.
 
